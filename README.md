@@ -18,7 +18,7 @@
 
 ## 1. Considerações gerais
 
-- Este projeto será resolvido de forma **individual**.
+- O projeto foi feito individualmente, porém houve muita troca de dicas com as outras colegas.
 - A estimativa de tempo para completar o projeto varia de 2 a 4 Sprints.
 - Concentre-se em aprender, não apenas em "completar" o projeto.
 - Sugerimos que você não tente saber tudo antes de começar a codificar.
