@@ -2,7 +2,7 @@
 
 ##  Descrição
 
-<p align="center">Aplicação web criada para fazer analíse de textos em geral, seguindo alguns critérios já pré estabelecidos no readme da Lab. Utilizei JS, CSS e HTML.</p>
+<p align="center">Aplicação web criada para fazer analíse de textos em geral, seguindo critérios pré estabelecidos no readme da Lab.</p>
 
 ## Índice
 
