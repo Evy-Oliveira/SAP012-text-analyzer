@@ -1,7 +1,9 @@
 const analyzer = {
   getWordCount: (text) => {
     //TODO: Esta função deve retornar a contagem de palavras encontradas no parâmetro `text` do tipo `string`.
+    if (text.length === 0) return 0
     return text.trim().split(' ').length
+    
   },
   getCharacterCount: (text) => {
     //TODO: Esta função deve retornar a contagem de caracteres encontrados no parâmetro `text` do tipo `string`.
@@ -14,29 +16,32 @@ const analyzer = {
   },
   getAverageWordLength: (text) => {
     //TODO: Esta função deve retornar o comprimento médio das palavras encontradas no parâmetro `text` do tipo `string.
-    const palavras = analyzer.getWordCount(text);
-    const caracteresSemEspaco = analyzer.getCharacterCountExcludingSpaces(text);
-    const total = (caracteresSemEspaco / palavras);
-    const media = total.toFixed(2);
-    return media
+    const palavras = text.split(' ');
+    let total = 0;
+    for (let i = 0; i < palavras.length; i++) {
+      total += palavras[i].length;
+    }
+    const media = (total / palavras.length).toFixed(2);
+    return Number(media);
   },
   getNumberCount: (text) => {
     //TODO: Esta função deve retornar quantos números estão no parâmetro `text` do tipo `string`.
-    const numero = text.replace(/[^0-9]/g, '');
-    if (numero.length > 0)
-      return numero
-    else return 0
-
+    const listaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
+    // console.log(listaNumeros)
+    if (listaNumeros) {
+      return listaNumeros.length;
+    } else return 0;
   },
   getNumberSum: (text) => {
     //TODO: Esta função deve retornar a soma de todos os números encontrados no parâmetro `text` do tipo `string`.
+    const listaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
+    if ((!listaNumeros) || (listaNumeros.length === 0)) return 0
 
-    const algarismosDoTexto = analyzer.getNumberCount(text);
     let resultado = 0;
 
-    for (let i = 0; i < algarismosDoTexto.length; i++) {
+    for (let i = 0; i < listaNumeros.length; i++) {
 
-      resultado += parseInt(algarismosDoTexto[i]);
+      resultado += parseFloat(listaNumeros[i]);
 
     }
     return resultado;

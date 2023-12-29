@@ -26,5 +26,10 @@ areaTexto.addEventListener("input", function () {
 
 document.getElementById("reset-button").addEventListener("click", function () {
   areaTexto.value = ""
+  areaTexto.dispatchEvent(new Event("input"));
+
 //   Atraves do ID ele ta pegando o botão, o addEventListener(esta criando um observador para o botão) e sempre que clicar no botão o observador criado vai excutar a ação
 })
+
+areaTexto.dispatchEvent(new Event("input"));
+// lança um evento do input()
