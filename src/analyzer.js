@@ -3,7 +3,7 @@ const analyzer = {
     //TODO: Esta função deve retornar a contagem de palavras encontradas no parâmetro `text` do tipo `string`.
     if (text.length === 0) return 0
     return text.trim().split(' ').length
-    
+
   },
   getCharacterCount: (text) => {
     //TODO: Esta função deve retornar a contagem de caracteres encontrados no parâmetro `text` do tipo `string`.
