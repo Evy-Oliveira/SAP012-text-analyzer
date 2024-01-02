@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header>
+    <h1>Analisador de Texto</h1>
+  </header>
+ 
+  <ul class="container">
+    <li class="container" data-testid="word-count">Palavras: </li>
+    <li class="container" data-testid="character-count">Caracteres: </li>
+    <li class="container" data-testid="character-no-spaces-count">Caracteres sem espaços: </li>
+    <li class="container" data-testid="number-count">Números: </li>
+    <li class="container" data-testid="number-sum">Soma dos números: </li>
+    <li class="container" data-testid="word-length-average">Comprimento médio das Palavras: </li>
+  </ul>
+
+  <textarea placeholder="Digite seu texto aqui" name="user-input"></textarea>
+  
+    <button id="reset-button">Limpe seu texto</button>
+  
+  <footer>
+   <p>Desenvolvido por Evelyn Oliveira</p> 
+  </footer>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+</html>
