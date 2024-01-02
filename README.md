@@ -45,7 +45,7 @@
 ---
 
 ## Status do projeto
-<h4 align="center">🕵🏻‍♀️Em Testes🕵🏻‍♀️</h4>
+<h4 align="center">✨Finalizado✨</h4>
 
 ---
 
