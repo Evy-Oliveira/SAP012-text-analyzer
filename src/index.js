@@ -11,7 +11,7 @@ const liCharacterNoSpacesCount = document.querySelector("li[data-testid='charact
 
 const liNumberCount = document.querySelector("li[data-testid='number-count']")
 
-const liNumberSun = document.querySelector("li[data-testid='number-sun']")
+const liNumberSun = document.querySelector("li[data-testid='number-sum']")
 
 const liWordLengthAverage = document.querySelector("li[data-testid='word-length-average']")
 

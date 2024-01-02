@@ -55,7 +55,7 @@
   - [x] `npm run test:oas-web-api`
   - [x] `npm run test:oas-js`
   - [x] `run test`
-  - [ ] `run test:e2e`
+  - [x] `run test:e2e`
 
 ---
 

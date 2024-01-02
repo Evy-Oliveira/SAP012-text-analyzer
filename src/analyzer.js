@@ -13,6 +13,7 @@ const analyzer = {
     //TODO: esta função deve retornar a contagem de caracteres excluindo espaços e sinais de pontuação encontrados no parâmetro `text` do tipo `string`.
     // o que esta dentro de () depois de replace tira o espaço e pontuações, se quisesse tirar só os espaços poderia usar(' ', '')/(/ /g, '')/(/\s/g,'')
     return text.replace(/[^\w]/g, '').length
+    // /[^0-9a-zA-Z]/gim,''.
   },
   getAverageWordLength: (text) => {
     //TODO: Esta função deve retornar o comprimento médio das palavras encontradas no parâmetro `text` do tipo `string.
@@ -35,17 +36,18 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: Esta função deve retornar a soma de todos os números encontrados no parâmetro `text` do tipo `string`.
     const listaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
+    
     if ((!listaNumeros) || (listaNumeros.length === 0)) return 0
 
     let resultado = 0;
 
     for (let i = 0; i < listaNumeros.length; i++) {
 
-      resultado += parseFloat(listaNumeros[i]);
+      resultado += Number(listaNumeros[i]);
 
     }
     return resultado;
-  },
+  }
 };
 
 export default analyzer;
