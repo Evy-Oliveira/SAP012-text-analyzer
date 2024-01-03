@@ -44,7 +44,7 @@ const analyzer = {
     for (let i = 0; i < listaNumeros.length; i++) {
 
       resultado = resultado + Number(listaNumeros[i]);
-      //resultado += Number(listaNumeros[i])
+      //podeira usar resultado += Number(listaNumeros[i])
 
     }
     return resultado;

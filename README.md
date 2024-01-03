@@ -3,12 +3,14 @@
 ##  Descrição
 
 <p align="center">Aplicação web criada para fazer analíse de textos em geral, seguindo critérios pré estabelecidos no readme da Lab.</p>
+<p align="center">Experimente o <a href="https://evy-oliveira.github.io/SAP012-text-analyzer/" target="_blank">Analisador de Texto</a></p>
 
 ## Índice
 
 - [Descrição](#Descrição)
 - [Índice](#índice)
 - [Considerações gerais](#considerações-gerais)
+- [Aprendizado](#aprendizado)
 - [Funcionalidades](#funcionalidades)
 - [Status do Projeto](#status-do-projeto)
 - [Testes](#testes)
@@ -20,13 +22,27 @@
 ## Considerações gerais
 
 - Exercitei a escrita de um readme estruturado e objetivo.
-- O projeto foi feito individualmente, porém houve muita troca de dicas com as outras colegas(que foi super importante).
-- Terminei o projeto na terceira sprint.
+- O [projeto](https://evy-oliveira.github.io/SAP012-text-analyzer/) foi feito individualmente, porém houve muita troca de dicas com as outras colegas(que foi super importante).
+- Terminei o [projeto](https://evy-oliveira.github.io/SAP012-text-analyzer/) na terceira sprint.
 - Procurei fazer de forma mais simples possível, pra que pudesse entender o que estava acontecendo no código.
 
 ---
 
+## Aprendizado
+
+📌
+📌
+📌
+📌
+📌
+📌
+📌
+
+---
+
 ## Funcionalidades
+
+![](src/analisador.gif)
 
 👍🏼 A aplicação permite digitar um texto em uma caixa de texto.
 
@@ -41,6 +57,8 @@
     📌Soma total dos números: faz a soma de todos os números que estão no texto e mostra o resultado.
   
 👍🏼 A aplicação limpa a caixa de texto e o conteudo dos contadores ao clicar no botão"Limpe seu texto".
+
+ 
 
 ---
 
