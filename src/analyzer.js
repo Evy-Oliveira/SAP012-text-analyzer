@@ -20,7 +20,8 @@ const analyzer = {
     const palavras = text.split(' ');
     let total = 0;
     for (let i = 0; i < palavras.length; i++) {
-      total += palavras[i].length;
+      total = total + palavras[i].length;
+      //poderia usar total+= palavras[i].length
     }
     const media = (total / palavras.length).toFixed(2);
     return Number(media);
@@ -28,7 +29,6 @@ const analyzer = {
   getNumberCount: (text) => {
     //TODO: Esta função deve retornar quantos números estão no parâmetro `text` do tipo `string`.
     const listaNumeros = text.match(/\b\d+(\.\d+)?\b/g);
-    // console.log(listaNumeros)
     if (listaNumeros) {
       return listaNumeros.length;
     } else return 0;
@@ -43,7 +43,8 @@ const analyzer = {
 
     for (let i = 0; i < listaNumeros.length; i++) {
 
-      resultado += Number(listaNumeros[i]);
+      resultado = resultado + Number(listaNumeros[i]);
+      //resultado += Number(listaNumeros[i])
 
     }
     return resultado;
