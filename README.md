@@ -30,13 +30,16 @@
 
 ## Aprendizado
 
-📌
-📌
-📌
-📌
-📌
-📌
-📌
+<p >Entre outros, esses foram os conhecimento técnicos que reforçei e adquiri ao longo da criação desse projeto.</p>
+
+    📌Protótipo de baixa fidelidade;
+    📌Uso de HTML semântico;
+    📌Uso de seletores e box model no CSS;
+    📌Manipulação de eventos, seletores e Manipulação dinâmica do DOM;
+    📌JavaScript;
+    📌Testes unitários; 
+    📌Git;
+    📌GitHub;
 
 ---
 
