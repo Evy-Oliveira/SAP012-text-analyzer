@@ -52,6 +52,7 @@ h1{
     color:  #35552c;
 }
 textarea[name="user-input"]{
+    resize: none;
     width: 50%;  
     height: 90px; 
     padding: 4px;
